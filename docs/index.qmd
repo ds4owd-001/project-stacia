@@ -1,0 +1,20 @@
+---
+title: "My project"
+format: html
+editor: visual
+---
+
+## Project Description
+
+Present and plot adolescent weight status over time.
+
+## Import
+
+```{r}
+library(tidyverse)
+library(ggthemes)
+```
+
+```{r}
+read_csv(here::here("data/raw/2021_GNR_Adolescent_Dataset_6YAamkd.csv"))
+```
